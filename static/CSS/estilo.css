@@ -1,0 +1,40 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para los títulos */
+.titulo {
+    font-size: 2.5em;
+    color: #4CAF50;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo para las fotos */
+.foto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los datos */
+.data {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #4CAF50;
+}

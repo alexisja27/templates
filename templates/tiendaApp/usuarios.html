@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'CSS/estilo.css' %}">
+</head>
+
+<body>
+    <h1>datos personales</h1>
+    <img src="{% static 'images/carlos.png' %}" width="300" height="auto" alt="carlos">
+    <h2>¿TE PUSISTE NERVIOSA?</h2>
+    <ul>
+        <li>nombre : {{ nombre }}</li>
+        <li>paterno : {{ paterno }}</li>
+        <li>materno : {{ materno }}</li>
+        <li>edad : {{ edad }}</li>
+        <li>correo : {{ correo }}</li>
+        <li>cargo : {{ cargo }}</li>
+    </ul>
+    <footer>
+        <a href="{% url 'inicio' %}">Volver al inicio</a>
+    </footer>
+
+</body>
+
+</html>
